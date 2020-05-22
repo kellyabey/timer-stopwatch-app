@@ -2,3 +2,34 @@ h1 {
     position: relative;
     text-align: center;
 }
+body {
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(#3dcccc,#19acac);
+    font-family: "Futura";
+    font-weight: 800 color: black;
+}
+
+h1 {
+    background: -webkit-linear-gradient(#f0f8ff,#f0ffff);
+    background-clip: text;
+    text-align: center;
+    font-size: 50px
+
+#display {
+   background-clip: text;
+    text-align: center;
+    font-size: 50px
+  }
+.buttons:hover {
+    background-color: black;
+
+}
+
+.buttons:visited {
+    color: black;
+}
+
+.buttons:active {
+    color: white;
+}
