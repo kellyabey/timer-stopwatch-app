@@ -7,15 +7,18 @@
 <body>
     <h1>Timer</h1>
     <div class="content">
+        <b><span id="display">00:00:00</span></b>
         <div>
-            <input type="number" id="time" placeholder="Time">
-        </div>
-        <div class="buttons"></div>
-        <button class="start">Start</button>
-        <button class="pause">Pause</button>
-        <button class="continue">Continue</button>
+            <input type="number" id="hourBox" placeholder="hours" min="00" max="48">
+            <input type="number" id="minBox" placeholder="minutes" min="00" max="59">
+            <input type="number" id="secBox" placeholder="seconds" min="00" max="59">
+            <input id="textBox" placeholder="Enter a message to be displayed when timer ends!" </div>
+            <div class="buttons"></div>
+            <button onclick="startTimer()">Start</button>
+            <button id="pause">Pause</button>
+            <button id="continue">Continue</button>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 
 </html>
